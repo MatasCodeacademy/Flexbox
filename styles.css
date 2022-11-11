@@ -1,0 +1,25 @@
+.flexbox {
+	/* //height: 200px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap-reverse;
+}
+
+.flexbox div {
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+}
+
+.flexbox div:nth-child(1) {
+	background-color: orange;
+}
+
+.flexbox div:nth-child(2) {
+	background-color: rgb(173, 46, 122);
+}
+
+.flexbox div:nth-child(3) {
+	background-color: rgb(53, 118, 42);
+}
